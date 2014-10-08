@@ -1,0 +1,29 @@
+<?php
+#@# name:Computer's state | exemple: is connected | computer_id:computers;select;object/computers | plugin:computers
+$lang_object = add_language(USER_OBJECTS."computers");
+$lang = array_merge($lang,$lang_object);
+
+if(isset($data_link_json->computer_id)){
+$computer_id = $data_link_json->computer_id;
+}
+
+if(isset($_["computer_id"])){
+$computer_id = $_["computer_id"];
+}
+
+$computer_db = new Entity("computers");
+$computer_data = $computer_db->load([
+	"id" => $computer_id
+	]);
+
+	exec("ping -c 1 ".$computer_data["ipaddress"],$result,$out_ping);
+
+	if ($out_ping != 0){
+		$data = t("is not connected");
+	}
+	else
+	{
+		$data = t("is connected");
+	}
+
+?>
