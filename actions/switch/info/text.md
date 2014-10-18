@@ -1,1 +1,1 @@
-Switch
+Turn on/off

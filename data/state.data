@@ -1,7 +1,10 @@
 <?php
 #@# name:Computer's state | exemple: is connected | computer_id:computers;select;object/computers | plugin:computers
+
+if($lang){
 $lang_object = add_language(USER_OBJECTS."computers");
 $lang = array_merge($lang,$lang_object);
+}
 
 if(isset($data_link_json->computer_id)){
 $computer_id = $data_link_json->computer_id;

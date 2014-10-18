@@ -1,0 +1,25 @@
+<?php
+
+#RCSWITCH-DATA
+#RC: 20   1301 01 01
+#    FLAG DATA ID TYPE
+#Type:
+#Signed number: 10
+#Temperature : 11
+#Add your own sensor
+#
+#Type:Signed number
+#
+
+$data =	$_["data"]; //Get data
+$type = $_["type"]; //Get object name
+$time = $_["time"];
+$state = $_["state"];
+
+Data::save_data($data,$type,$time,$state);
+Data::check_triggers($data,$type,$time,$state);
+
+
+
+?>
+

@@ -1,0 +1,1 @@
+Quand la connectivité de l'ordinateur change

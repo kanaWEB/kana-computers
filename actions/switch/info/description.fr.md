@@ -1,1 +1,1 @@
-Eteindre ou Allumer un ordinateur
+Eteindre ou Allumer un ordinateur (windows/linux)

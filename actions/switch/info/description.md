@@ -1,1 +1,1 @@
-Turn on/off a computer
+Turn on/off a computer (windows/linux)

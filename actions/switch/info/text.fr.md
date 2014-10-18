@@ -1,1 +1,1 @@
-Interrupteur
+Eteindre/Allumer

@@ -1,0 +1,17 @@
+<?php
+unset($data);
+$data[] = [
+"text" => "connected",
+"value" => "on"
+];
+
+$data[] = [
+"text" => "disconnected",
+"value" => "off"
+];
+
+$data[] = [
+"text" => "change state",
+"value" => ""
+];
+?>

@@ -1,1 +1,1 @@
-Switch / VNC
+Turn on/off / Remote Control

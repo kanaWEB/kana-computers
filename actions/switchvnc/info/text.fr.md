@@ -1,1 +1,1 @@
-Interrupteur / VNC
+Allumer / Eteindre / Control Distant
