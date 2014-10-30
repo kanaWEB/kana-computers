@@ -1,5 +1,5 @@
 <?php
-#@# name:Computer's state | exemple: is connected | computer_id:computers;select;object/computers | plugin:computers
+#@# name:Computer's state | example: is connected | computer_id:computers;select;object/computers | plugin:computers
 
 if($lang){
 $lang_object = add_language(USER_OBJECTS."computers");
@@ -19,7 +19,7 @@ $computer_data = $computer_db->load([
 	"id" => $computer_id
 	]);
 
-	exec("ping -c 1 ".$computer_data["ipaddress"],$result,$out_ping);
+	exec("ping -c 1 -w 1 ".$computer_data["ipaddress"],$result,$out_ping);
 
 	if ($out_ping != 0){
 		$data = t("is not connected");
