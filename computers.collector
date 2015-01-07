@@ -16,7 +16,7 @@ $type = $_["type"]; //Get object name
 $time = $_["time"];
 $state = $_["state"];
 
-Data::save_data($data,$type,$time,$state);
+Data::save_data("",$data,$type,$time,$state,MAXDATA);
 Data::check_triggers($data,$type,$time,$state);
 
 
