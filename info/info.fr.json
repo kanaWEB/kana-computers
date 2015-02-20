@@ -1,0 +1,18 @@
+{
+   "description" : "Allumer/éteindre un ordinateur et le contrôler avec VNC",
+   "name" : "Ordinateurs",
+   "tags" : {
+      "computers" : {},
+      "windows" : {},
+      "linux" : {},
+      "control" : {},
+      "wake-on-lan" : {},
+      "wol" : {},
+      "shutdown" : {},
+      "objects" : {},
+      "ping" : {},
+      "vnc" : {},
+      "remote" : {}
+   },
+   "type" : "camera"
+}

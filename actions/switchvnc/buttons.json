@@ -1,0 +1,32 @@
+{
+   "buttons" : [
+      {
+         "color" : "success",
+         "command" : "default",
+         "effect" : {
+            "type" : "state_toggle(this,'on')"
+         },
+         "icon" : "glyphicon-off",
+         "name" : "Turn on",
+         "state" : 1
+      },
+      {
+         "color" : "danger",
+         "effect" : {
+            "type" : "state_toggle(this,'off')"
+         },
+         "icon" : "glyphicon-off",
+         "name" : "Turn off",
+         "state" : 0
+      },
+      {
+         "color" : "warning",
+         "command" : "switchvnc",
+         "effect" : {
+            "type" : "button_link_htmlviews(this,'noVNC/novnc')"
+         },
+         "name" : "VNC",
+         "state" : 0
+      }
+   ]
+}

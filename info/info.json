@@ -1,0 +1,18 @@
+{
+   "description" : "Turn on/off computers and control them with VNC",
+   "name" : "Computers",
+   "tags" : {
+      "computers" : {},
+      "windows" : {},
+      "linux" : {},
+      "control" : {},
+      "wake-on-lan" : {},
+      "wol" : {},
+      "shutdown" : {},
+      "objects" : {},
+      "ping" : {},
+      "vnc" : {},
+      "remote" : {}
+   },
+   "type" : "camera"
+}

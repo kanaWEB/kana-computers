@@ -1,1 +1,0 @@
-computers,windows,linux,control,wake-on-lan,wol,shutdown,objects,ping,vnc,remote

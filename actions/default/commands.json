@@ -1,0 +1,24 @@
+{
+   "default" : {
+      "command" : "computers",
+      "usage" : "computers ipaddress macaddress password type state",
+      "args" : {
+         "ipaddress" : {
+            "type" : "Config"
+         },
+         "macaddress" : {
+            "type" : "Config"
+         },
+         "password" : {
+            "type" : "Config"
+         },
+         "type" : {
+            "type" : "Config"
+         },
+         "state" : {
+            "modifier" : "Binary",
+            "type" : "Post"
+         }
+      }
+   }
+}
