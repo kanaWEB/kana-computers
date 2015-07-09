@@ -11,15 +11,10 @@
 #Type:Signed number
 #
 
-$data =	$_["data"]; //Get data
-$type = $_["type"]; //Get object name
-$time = $_["time"];
-$state = $_["state"];
+$data = $_['data']; //Get data
+$type = $_['type']; //Get object name
+$time = $_['time'];
+$state = $_['state'];
 
-Data::save_data("",$data,$type,$time,$state,MAXDATA);
-Data::check_triggers($data,$type,$time,$state);
-
-
-
-?>
-
+Data::saveData('', $data, $type, $time, $state, MAXDATA);
+Data::checkTriggers($data, $type, $time, $state);
