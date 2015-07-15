@@ -1,0 +1,32 @@
+<?php
+//Open Action table
+if (isset($_["id"])) {
+    $action_db = new Entity("actions", "computers");
+    $action = $action_db->getById($_["id"]);
+    if ($action) {
+        if ($currentUser->GroupRight($action["group_key"])) {
+            $computers = new Entity("config", "computers");
+            $computer = $computers->load([
+                "id" => $action["object_key"]
+                ]);
+            if ($computer) {
+//Kill websocket
+                system("pkill -9 -f websockify");
+                //Launch websocket in background
+                $command = "sudo /opt/piget/noVNC/noVNC --vnc ".$computer["ipaddress"].":5900";
+                //echo $command."\n";
+                Functions::launchBackground($command);
+ //Wait for the tcp port to be open
+                $port_state = false;
+                sleep(1);
+                while ($port_state) {
+                    $port_state = Functions::is_port_open(6080);
+                }
+                $url = "https://".$_SERVER["HTTP_HOST"].":6080/vnc.html?host=".$_SERVER['HTTP_HOST']."&port=6080";
+                //echo $url;
+                header('location:'.$url);
+            }
+        }
+    }
+}
+

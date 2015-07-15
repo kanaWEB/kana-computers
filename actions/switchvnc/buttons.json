@@ -2,7 +2,7 @@
    "buttons" : [
       {
          "color" : "success",
-         "command" : "default",
+         "command" : "on",
          "effect" : {
             "type" : "state_toggle(this,'on')"
          },
@@ -12,6 +12,7 @@
       },
       {
          "color" : "danger",
+         "command": "off",
          "effect" : {
             "type" : "state_toggle(this,'off')"
          },
@@ -23,7 +24,7 @@
          "color" : "warning",
          "command" : "switchvnc",
          "effect" : {
-            "type" : "button_link_htmlviews(this,'noVNC/novnc')"
+            "type" : "button_link_htmlviews(this,'novnc')"
          },
          "name" : "VNC",
          "state" : 0

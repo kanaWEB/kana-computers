@@ -1,24 +1,26 @@
 {
-   "default" : {
-      "command" : "computers",
-      "usage" : "computers ipaddress macaddress password type state",
+   "off" : {
+      "command" : "sudo /opt/piget/computers/computersOff",
+      "usage" : "computers ipaddress password type",
       "args" : {
-         "ipaddress" : {
+         "type" : {
             "type" : "Config"
          },
-         "macaddress" : {
+         "ipaddress" : {
             "type" : "Config"
          },
          "password" : {
             "type" : "Config"
-         },
-         "type" : {
-            "type" : "Config"
-         },
-         "state" : {
-            "modifier" : "Binary",
-            "type" : "Post"
          }
       }
+   },
+   "on" : {
+      "command" : "sudo /opt/piget/computers/computersOn",
+      "usage" : "computers macaddress",
+      "args" : {
+         "macaddress" : {
+            "type" : "Config"
+         }
+     }
    }
 }
