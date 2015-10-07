@@ -7,10 +7,9 @@ if (isset($data) && isset($type)) {
         $time = time();
     }
 
-    $state = $_['state'];
+    $state = trim($_['state']);
     $data = explode("/", $data);
     $data = $data[2];
-
 
     Data::saveData('', $data, $type, $time, $state, MAXDATA);
     Data::checkTriggers($data, $type, $time, $state);
