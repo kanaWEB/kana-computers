@@ -5,4 +5,4 @@
 /do/noVNC/install
 /do/nginx/authorize /do/computers/off
 /do/nginx/authorize /do/computers/on
-
+/do/nginx/authorize /do/noVNC/start

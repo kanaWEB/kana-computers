@@ -1,6 +1,6 @@
 {
-   "off" : {
-      "command" : "sudo /opt/piget/computers/computersOff",
+ "off" : {
+      "command" : "sudo /do/computers/off",
       "usage" : "computers ipaddress password type",
       "args" : {
          "type" : {
@@ -15,7 +15,7 @@
       }
    },
    "on" : {
-      "command" : "sudo /opt/piget/computers/computersOn",
+      "command" : "/do/computers/on",
       "usage" : "computers macaddress",
       "args" : {
          "macaddress" : {
