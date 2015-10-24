@@ -1,3 +1,4 @@
 {
-	"html" : "default"
+	"html" : "default",
+	"database" : "default"
 }
