@@ -1,8 +1,7 @@
 #!/bin/sh
-/system/downloadModule computers
-/system/computers/install
-/system/downloadModule noVNC
-/do/noVNC/install
+/pi/install computers
+/pi/install noVNC
+
 /do/nginx/authorize /do/computers/off
 /do/nginx/authorize /do/computers/on
 /do/nginx/authorize /do/noVNC/start
@@ -11,3 +10,4 @@
 /do/nginx/authorize /do/computers/start
 /do/nginx/authorize /do/computers/stop
 
+/do/kana/check

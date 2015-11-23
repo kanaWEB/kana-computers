@@ -14,7 +14,7 @@ if (isset($_["id"])) {
                 system("pkill -9 -f websockify");
                 //Launch websocket in background
                 $command = "sudo /do/noVNC/start --vnc ".$computer["ipaddress"].":5900";
-                //echo $command."\n";
+                echo $command."\n";
                 Functions::launchBackground($command);
  //Wait for the tcp port to be open
                 $port_state = false;
@@ -29,4 +29,3 @@ if (isset($_["id"])) {
         }
     }
 }
-
