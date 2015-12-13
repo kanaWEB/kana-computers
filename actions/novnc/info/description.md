@@ -1,0 +1,1 @@
+Connect to a computer using noVNC and wake it up using Wake-On-Lan

@@ -1,1 +1,0 @@
-Turn on/off / Remote Control

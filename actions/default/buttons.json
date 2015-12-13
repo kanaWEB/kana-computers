@@ -1,24 +1,3 @@
 {
-	"buttons" : [
-	{
-		"name": "Turn on",
-		"color" : "success",
-		"icon" : "glyphicon-off",
-		"command" : "on",
-		"state" : 1,
-		"effect" : {
-			"type" : "state_toggle(this,'on')"
-		}
-	},
-	{
-		"name" : "Turn off",
-		"command" : "off",
-		"color" : "danger",
-		"icon" : "glyphicon-off",
-		"state" : 0,
-		"effect" : {
-			"type" : "state_toggle(this,'off')"
-		}
-	}
-]
+	
 }

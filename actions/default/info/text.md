@@ -1,1 +1,1 @@
-Turn on/off
+Status

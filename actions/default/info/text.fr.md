@@ -1,1 +1,1 @@
-Eteindre/Allumer
+Etat

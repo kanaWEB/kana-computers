@@ -1,0 +1,13 @@
+{
+	"buttons" : [
+	 {
+        "name" : "VNC",
+        "color" : "warning",
+        "command" : "switchvnc",
+        "effect" : {
+            "type" : "button_link_htmlviews(this,'novnc')"
+         },
+         "state" : 1
+     }
+]
+}

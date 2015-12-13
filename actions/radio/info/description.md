@@ -1,0 +1,1 @@
+Turn on/off a Raspberry Pi or others linux devices using a radio power outlets and a small hack.

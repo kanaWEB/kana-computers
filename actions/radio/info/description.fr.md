@@ -1,0 +1,1 @@
+Eteindre un Raspberry Pi à l'aide d'une prise radio et d'une petite astuce.

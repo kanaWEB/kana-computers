@@ -6,7 +6,21 @@ $data[] = [
 ];
 
 $data[] = [
+"text" => "Raspberry Pi",
+"value" => "2"
+];
+
+$data[] = [
+"text" => "Mac OS",
+"value" => "3"
+];
+
+$data[] = [
 "text" => "Linux",
 "value" => "2"
 ];
-?>
+
+$data[] = [
+"text" => "Others",
+"value" => "3"
+];

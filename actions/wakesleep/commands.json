@@ -1,6 +1,6 @@
 {
  "off" : {
-      "command" : "sudo /do/computers/off",
+      "command" : "sudo /do/computers/sleep",
       "usage" : "computers ipaddress password type",
       "args" : {
          "type" : {

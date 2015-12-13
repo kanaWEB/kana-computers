@@ -1,0 +1,27 @@
+{
+   "off" : {
+      "command" : "sudo /do/computers/radioOff",
+      "args" : {
+         "type" : {
+            "type" : "Config"
+         },
+         "ipaddress" : {
+            "type" : "Config"
+         },
+         "password" : {
+            "type" : "Config"
+         },
+         "radioOff" : {
+            "type" : "Actions"
+         }
+      }
+   },
+   "on" : {
+      "command" : "/do/radio/send",
+      "args" : {
+         "radioOn" : {
+            "type" : "Actions"
+         }
+     }
+   }
+}

@@ -1,1 +1,1 @@
-Turn on/off a computer (windows/linux)
+Show computer state

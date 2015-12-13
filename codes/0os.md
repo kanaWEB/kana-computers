@@ -1,3 +1,3 @@
 id    |name        |type           |options
 ------|------------|---------------|------------
-type  |Type        |select         |computers/os
+type  |OS          |select         |computers/os

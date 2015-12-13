@@ -27,7 +27,7 @@
             "type" : "button_link_htmlviews(this,'novnc')"
          },
          "name" : "VNC",
-         "state" : 0
+         "state" : 1
       }
    ]
 }
